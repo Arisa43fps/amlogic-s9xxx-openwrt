@@ -223,7 +223,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - Arisa43fps
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
