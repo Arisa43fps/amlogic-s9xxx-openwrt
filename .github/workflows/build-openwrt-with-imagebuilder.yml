@@ -15,10 +15,10 @@ on:
       releases_branch:
         description: "Select the releases branch"
         required: false
-        default: "openwrt:24.10.0"
+        default: "openwrt:24.10.1"
         type: choice
         options:
-          - openwrt:24.10.0
+          - openwrt:24.10.1
           - immortalwrt:24.10.0
       openwrt_board:
         description: "Select device board"
@@ -222,10 +222,10 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - arisa43fps
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Jakarta
   IMAGEBUILDER_SH: config/imagebuilder/imagebuilder.sh
 
 jobs:
